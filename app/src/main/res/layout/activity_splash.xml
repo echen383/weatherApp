@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#5089DA"
+    android:fitsSystemWindows="true"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to get weather"
+            android:id="@+id/tvWeatherSplash"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivWeatherPic"
+            android:src="@drawable/weather"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+<!--id = reference id-->
+<!--dp is relative to screen size-->
